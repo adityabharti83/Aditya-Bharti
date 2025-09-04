@@ -98,9 +98,9 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onSectionChange }) => 
         transition={{ duration: 0.6, delay: 1 }}
       >
         {[
-          { number: '50+', label: 'Projects Completed' },
-          { number: '3+', label: 'Years Experience' },
-          { number: '20+', label: 'Happy Clients' },
+          { number: '10+', label: 'Projects Completed' },
+          { number: '1', label: 'Years Experience' },
+          { number: '4+', label: 'Happy Clients' },
           { number: '10+', label: 'Technologies' }
         ].map((stat, index) => (
           <motion.div
